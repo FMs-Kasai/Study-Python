@@ -11,7 +11,7 @@ print(list01[3])
 # list01[4] = "kasai" 添え字エラー　配列のレンジを超えた挿入はできない
 # print(list01[4])
 
-#リストの中にリストを挿入できる
+#リストの中にリストを挿入できる！
 list02 = [["kasai","sato"],["ubayama","sakuma"]]
 
 print(list02[0][0])
