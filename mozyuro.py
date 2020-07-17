@@ -32,6 +32,6 @@ day = int(input("Day:"))
 
 youbi = summer_wars(year,month,day)
 
-print(youbi + "曜ですね！")
+print(youbi + "曜日ですね！")
 print('{}年{}月{}日は{}曜日でした！合ってましたか？？？'.format(year,month,day,youbi))
 
