@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="hello world">
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="変数の基本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +48,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Python.hensu">
+  <component name="RunManager" selected="Python.data-kata">
+    <configuration name="data-kata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-kata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hensu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hensu" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Study-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hensu" />
+        <item itemvalue="Python.data-kata" />
         <item itemvalue="Python.helloworld" />
       </list>
     </recent_temporary>
@@ -105,12 +144,31 @@
       <option name="project" value="LOCAL" />
       <updated>1594895911393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="変数の基本">
+      <created>1594952296102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594952296102</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello world" />
+    <MESSAGE value="変数の基本" />
+    <option name="LAST_COMMIT_MESSAGE" value="変数の基本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="639" y="310" key="Github.ShareDialog" timestamp="1594895666013">
@@ -121,22 +179,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1594952273071">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1594952741258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594952273071" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1594952273070">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594952741258" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1594952741258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594952273070" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1594952273070">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594952741258" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1594952741257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594952273070" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1594952273071">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594952741257" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1594952741258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594952273071" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594952741258" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594951833686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -153,9 +211,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594951833686" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594895917111">
+    <state x="551" y="133" key="RollbackChangesDialog" timestamp="1594952489203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594895917111" />
+    <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594952489203" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594952298141">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594952298141" />
   </component>
 </project>
