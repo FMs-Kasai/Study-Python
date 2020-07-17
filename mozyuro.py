@@ -4,14 +4,17 @@ def summer_wars(num1,num2,num3):
     month_taiouhyo = [1,4,4,0,2,5,0,3,6,1,4,6]
     youbihyo = ["土","日","月","火","水","木","金"]
 
-    if num1 - 2000 <= 0:
+    if num1 - 2000 >= 0:
         a = num1 - 2000
         b = math.floor((num1 - 2000) / 4)
         e = 6
-    else:
+    elif num1 - 1900 >= 0:
         a = num1 -1900
         b = math.floor((num1 - 1900) / 4)
         e = 0
+    else:
+        print("お前はもう死んでいる!!")
+        exit()
 
     c = num3
     d = month_taiouhyo[num2 - 1]
