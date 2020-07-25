@@ -23,4 +23,18 @@ def generate_pets_array():
     print("配列の中身は以下")
     print(pets_array)
 
-generate_pets_array()
+    return pets_array
+
+def search_pets(pets_array):
+    print("検索したいペットの名前を入力してください")
+    search_pets_name = input()
+    if search_pets_name not in pets_array:
+        print(search_pets_name + "という名前のペットは飼っていません")
+        return search_pets_name(pets_array)
+    else:
+        print(search_pets_name + "は私のペットです")
+        return search_pets(pets_array)
+
+
+pets_array = generate_pets_array()
+search_pets(pets_array)
