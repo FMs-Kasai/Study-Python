@@ -14,7 +14,8 @@ def generate_pets_array():
         if pets_name == "":
             break
 
-        pets_array = pets_array + [pets_name]
+        # pets_array = pets_array + [pets_name]
+        pets_array.append(pets_name) #リストの末尾に追加
 
     print("入力されたペットの名前は以下の通り")
     for pets_name in pets_array:
@@ -30,11 +31,11 @@ def search_pets(pets_array):
     search_pets_name = input()
     if search_pets_name not in pets_array:
         print(search_pets_name + "という名前のペットは飼っていません")
-        return search_pets_name(pets_array)
-    else:
-        print(search_pets_name + "は私のペットです")
         return search_pets(pets_array)
-
+    else:
+        i = pets_array.index(search_pets_name)
+        print(search_pets_name + "は私のペットです。リスト番号{}".format(i))
+        return search_pets(pets_array)
 
 pets_array = generate_pets_array()
 search_pets(pets_array)
