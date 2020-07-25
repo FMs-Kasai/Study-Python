@@ -28,3 +28,8 @@ print(list02[0][0])
 print(list02[0][1])
 print(list02[1][0])
 print(list02[1][1])
+
+name = "Zophie"
+print(name[1])
+for i in name:
+    print("★★★" + i + "★★★")
