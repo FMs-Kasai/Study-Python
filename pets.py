@@ -27,8 +27,12 @@ def generate_pets_array():
     return pets_array
 
 def search_pets(pets_array):
-    print("検索したいペットの名前を入力してください")
+    print("検索したいペットの名前を入力してください\nペットを削除したい場合delと入力してください")
     search_pets_name = input()
+
+    if search_pets_name == "del":
+        return remove_pets(pets_array)
+
     if search_pets_name not in pets_array:
         print(search_pets_name + "という名前のペットは飼っていません")
         return search_pets(pets_array)
@@ -36,6 +40,13 @@ def search_pets(pets_array):
         i = pets_array.index(search_pets_name)
         print(search_pets_name + "は私のペットです。リスト番号{}".format(i))
         return search_pets(pets_array)
+
+def remove_pets(pets_array):
+    print("削除したいペットの名前を入力してください")
+    del_pets_name = input()
+    pets_array.remove(del_pets_name)
+    return search_pets(pets_array)
+
 
 pets_array = generate_pets_array()
 search_pets(pets_array)
