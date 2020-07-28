@@ -3,7 +3,7 @@
 import sys
 import pyperclip
 
-greeting = {"greeting": "初めてメールを送らせていただきます。「」の「」と申します",
+greeting = {"greeting1": "初めてメールを送らせていただきます。「」の「」と申します",
             "greeting2": "突然のご連絡しつれいいたします。「」の「」と申します",
             "greeting3": "お世話になっております。「」の「」と申します"}
 
