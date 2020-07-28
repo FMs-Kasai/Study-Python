@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="辞書型の学習">
-      <change afterPath="$PROJECT_DIR$/sanmoku.py" afterDir="false" />
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="3目並べのプログラム">
+      <change afterPath="$PROJECT_DIR$/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Python.sanmoku">
+  <component name="RunManager" selected="Python.items">
     <configuration name="CharacterCount" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="items" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +140,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/items.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.items" />
+        <item itemvalue="Python.birthday" />
         <item itemvalue="Python.sanmoku" />
         <item itemvalue="Python.CharacterCount" />
-        <item itemvalue="Python.birthday" />
         <item itemvalue="Python.pets" />
-        <item itemvalue="Python.list" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595911993353</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="3目並べのプログラム">
+      <created>1595913569239</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1595913569239</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +522,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="脱字修正" />
     <MESSAGE value="継承についての学習" />
     <MESSAGE value="最大公約数を求めるプログラム" />
     <MESSAGE value="閏年判別プログラム" />
@@ -539,7 +546,8 @@
     <MESSAGE value="setdefaultメソッドを使用した、文章に何の文字が何個含まれているかわかるプログラム" />
     <MESSAGE value="pprintを使用して見やすく表示できる" />
     <MESSAGE value="辞書型の学習" />
-    <option name="LAST_COMMIT_MESSAGE" value="辞書型の学習" />
+    <MESSAGE value="3目並べのプログラム" />
+    <option name="LAST_COMMIT_MESSAGE" value="3目並べのプログラム" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="8" key="#data-kata" timestamp="1594954296191">
@@ -554,22 +562,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="1515" height="207" key="GridCell.Tab.0.bottom" timestamp="1595913455557">
+    <state width="1515" height="207" key="GridCell.Tab.0.bottom" timestamp="1595917337136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595913455557" />
-    <state width="1515" height="207" key="GridCell.Tab.0.center" timestamp="1595913455557">
+    <state width="1515" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595917337136" />
+    <state width="1515" height="207" key="GridCell.Tab.0.center" timestamp="1595917337136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595913455557" />
-    <state width="1515" height="207" key="GridCell.Tab.0.left" timestamp="1595913455557">
+    <state width="1515" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595917337136" />
+    <state width="1515" height="207" key="GridCell.Tab.0.left" timestamp="1595917337136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595913455557" />
-    <state width="1515" height="207" key="GridCell.Tab.0.right" timestamp="1595913455557">
+    <state width="1515" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595917337136" />
+    <state width="1515" height="207" key="GridCell.Tab.0.right" timestamp="1595917337136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595913455557" />
+    <state width="1515" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595917337136" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594964627485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -586,14 +594,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594964627485" />
-    <state x="551" y="133" key="RollbackChangesDialog" timestamp="1595080517882">
+    <state x="551" y="133" key="RollbackChangesDialog" timestamp="1595917328339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595080517882" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595911994869">
+    <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595917328339" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595913572963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595911994869" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595913572963" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1594954532721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
