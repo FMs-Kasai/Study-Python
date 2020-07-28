@@ -7,6 +7,11 @@ greeting = {"greeting": "初めてメールを送らせていただきます。�
             "greeting2": "突然のご連絡しつれいいたします。「」の「」と申します",
             "greeting3": "お世話になっております。「」の「」と申します"}
 
+if len(sys.argv) < 2:
+    print("使い方：mail_greeting.py [greeting1or2or3]")
+    print("定型文をクリップボードにコピーしました")
+    sys.exit()
+
 message = sys.argv[1]
 
 if message in greeting:
