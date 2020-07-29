@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="追記" />
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="修正">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_greeting.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_greeting.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -531,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595949117504</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="修正">
+      <created>1595988173271</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1595988173271</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +557,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="カウントアップタイマー" />
     <MESSAGE value="カウントダウンタイマー" />
     <MESSAGE value="オーバライドと多態性についての学習" />
     <MESSAGE value="//で小数点以下切り捨てが可能らしい" />
@@ -572,7 +581,8 @@
     <MESSAGE value="strip関連のメソッドを使った処理の挙動確認" />
     <MESSAGE value="エラー修正" />
     <MESSAGE value="追記" />
-    <option name="LAST_COMMIT_MESSAGE" value="追記" />
+    <MESSAGE value="修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="8" key="#data-kata" timestamp="1594954296191">
@@ -587,22 +597,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="1515" height="194" key="GridCell.Tab.0.bottom" timestamp="1595947990045">
+    <state width="1515" height="194" key="GridCell.Tab.0.bottom" timestamp="1595990072684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595947990045" />
-    <state width="1515" height="194" key="GridCell.Tab.0.center" timestamp="1595947990045">
+    <state width="1515" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595990072684" />
+    <state width="1515" height="194" key="GridCell.Tab.0.center" timestamp="1595990072684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595947990045" />
-    <state width="1515" height="194" key="GridCell.Tab.0.left" timestamp="1595947990045">
+    <state width="1515" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595990072684" />
+    <state width="1515" height="194" key="GridCell.Tab.0.left" timestamp="1595990072684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595947990045" />
-    <state width="1515" height="194" key="GridCell.Tab.0.right" timestamp="1595947990045">
+    <state width="1515" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595990072684" />
+    <state width="1515" height="194" key="GridCell.Tab.0.right" timestamp="1595990072684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595947990045" />
+    <state width="1515" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595990072684" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594964627485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -623,10 +633,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595917328339" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595949119151">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595988176319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595949119151" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595988176319" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1594954532721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
