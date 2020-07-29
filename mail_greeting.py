@@ -4,7 +4,7 @@ import sys
 import pyperclip
 
 greeting = {"greeting1": "初めてメールを送らせていただきます。「」の「」と申します",
-            "greeting2": "突然のご連絡しつれいいたします。「」の「」と申します",
+            "greeting2": "突然のご連絡失礼いたします。「」の「」と申します",
             "greeting3": "お世話になっております。「」の「」と申します"}
 
 if len(sys.argv) < 2:
