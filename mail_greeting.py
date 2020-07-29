@@ -5,7 +5,8 @@ import pyperclip
 
 greeting = {"greeting1": "初めてメールを送らせていただきます。「」の「」と申します",
             "greeting2": "突然のご連絡失礼いたします。「」の「」と申します",
-            "greeting3": "お世話になっております。「」の「」と申します"}
+            "greeting3": "お世話になっております。「」の「」と申します",
+            "command": "Start C:¥Windows¥system32¥rundll32.exe sysdm.cpl, EditEnvironmentVariables"}
 
 if len(sys.argv) == 1:
     print("使い方：mail_greeting.py [greeting1or2or3]")
