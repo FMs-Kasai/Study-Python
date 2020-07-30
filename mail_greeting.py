@@ -1,5 +1,11 @@
 #! python3
-
+"""
+windowsはバッチファイルを作ることでwin+Rで簡単に実行可能になる。
+mail.batの中身
+@py.exe [パイソンファイルの絶対パス]　%*
+@pause
+%*が引数を表しているため抜けないように注意する。
+"""
 import sys
 import pyperclip
 
