@@ -1,7 +1,5 @@
 import csv
 import re
-from pykakasi import kakasi
-
 
 def left(s, amount):
     return s[:amount]
@@ -44,6 +42,6 @@ KATAKANA = "アイウエオカガキギクグケゲコゴサザシジスズセ�
 
 kanalist = make_kana_dict()
 print(kanalist)
-print(MONSTER_NAME_DICT)
+
 
 

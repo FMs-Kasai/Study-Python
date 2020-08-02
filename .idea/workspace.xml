@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="修正">
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="データ整形。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dq8_monster.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dq8_monster.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_make_monsterlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_make_monsterlist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,13 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594895574597</updated>
-    </task>
-    <task id="LOCAL-00014" summary="映画「サマーウォーズ」で登場する、年月日から曜日を特定するプログラムを再現">
-      <created>1594997901361</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1594997901361</updated>
     </task>
     <task id="LOCAL-00015" summary="1900~2000年代対応のため、それ以外はメッセージを表示するように改良">
       <created>1594998592848</created>
@@ -562,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596346686232</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="データ整形。">
+      <created>1596349284423</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1596349284423</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,7 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="例外処理についての学習" />
     <MESSAGE value="例外処理を使用した数あてゲーム" />
     <MESSAGE value="コラッツ数列のプログラム" />
     <MESSAGE value="リストについて追記" />
@@ -603,7 +601,8 @@
     <MESSAGE value="pykakasiのテスト" />
     <MESSAGE value="エラー修正" />
     <MESSAGE value="修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正" />
+    <MESSAGE value="データ整形。" />
+    <option name="LAST_COMMIT_MESSAGE" value="データ整形。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="8" key="#data-kata" timestamp="1594954296191">
@@ -618,22 +617,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="747" height="195" key="GridCell.Tab.0.bottom" timestamp="1596346894844">
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom" timestamp="1596349302172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="747" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596346894844" />
-    <state width="747" height="195" key="GridCell.Tab.0.center" timestamp="1596346894844">
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596349302172" />
+    <state width="1515" height="197" key="GridCell.Tab.0.center" timestamp="1596349302172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="747" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596346894844" />
-    <state width="747" height="195" key="GridCell.Tab.0.left" timestamp="1596346894844">
+    <state width="1515" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596349302172" />
+    <state width="1515" height="197" key="GridCell.Tab.0.left" timestamp="1596349302172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="747" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596346894844" />
-    <state width="747" height="195" key="GridCell.Tab.0.right" timestamp="1596346894844">
+    <state width="1515" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596349302172" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right" timestamp="1596349302172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="747" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596346894844" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596349302172" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594964627485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -654,10 +653,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596343961779" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596343513915">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596349286985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596343513915" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596349286985" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1594954532721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
