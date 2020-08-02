@@ -218,13 +218,6 @@
       <option name="presentableId" value="Default" />
       <updated>1594895574597</updated>
     </task>
-    <task id="LOCAL-00005" summary="リストの基本">
-      <created>1594954136202</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1594954136202</updated>
-    </task>
     <task id="LOCAL-00006" summary="データ型の基本">
       <created>1594954365206</created>
       <option name="number" value="00006" />
@@ -561,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596332671768</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="csvから特定の列だけを抽出する">
+      <created>1596335017225</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1596335017225</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -617,22 +617,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="746" height="198" key="GridCell.Tab.0.bottom" timestamp="1596334379823">
+    <state width="1515" height="198" key="GridCell.Tab.0.bottom" timestamp="1596340675607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596334379823" />
-    <state width="746" height="198" key="GridCell.Tab.0.center" timestamp="1596334379823">
+    <state width="1515" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596340675607" />
+    <state width="1515" height="198" key="GridCell.Tab.0.center" timestamp="1596340675607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596334379823" />
-    <state width="746" height="198" key="GridCell.Tab.0.left" timestamp="1596334379823">
+    <state width="1515" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596340675607" />
+    <state width="1515" height="198" key="GridCell.Tab.0.left" timestamp="1596340675607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596334379823" />
-    <state width="746" height="198" key="GridCell.Tab.0.right" timestamp="1596334379823">
+    <state width="1515" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596340675607" />
+    <state width="1515" height="198" key="GridCell.Tab.0.right" timestamp="1596340675607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596334379823" />
+    <state width="1515" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596340675607" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594964627485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

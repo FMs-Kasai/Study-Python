@@ -22,7 +22,7 @@ def make_monstername_dict():
 
 def make_kana_dict():
     kana_list = {}
-    for i in range(1,len(HIRAGANA) + 1):
+    for i in range(0,len(HIRAGANA) + 1):
         kanas = []
         j = 1
         for key in MONSTER_NAME_DICT:
