@@ -25,7 +25,7 @@ def change_charactertype_katakana(word):
 
 def make_monstername_dict():
     monster_dict = {}
-    csv_header = ["no","name","area","drop_item"]
+    csv_header = ["no","name","exp","gold","area","drop_item"]
 
     with open("dq8_monster.csv", "r", encoding="utf-8_sig") as file:
         for key in csv.DictReader(file,csv_header):
