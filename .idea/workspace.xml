@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="コメントを追加">
-      <change afterPath="$PROJECT_DIR$/dq8_monster.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraping_dqmonster.py" afterDir="false" />
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="しりとり用のデータをスクレイピング">
+      <change afterPath="$PROJECT_DIR$/test_make_monsterlist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dq8_monster.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dq8_monster.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,30 +64,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Python.scraping_dqmonster">
-    <configuration name="birthday" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Study-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/birthday.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryoku\PycharmProjects\Study-Python" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test_make_monsterlist">
     <configuration name="hensu" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Study-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,13 +178,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_make_monsterlist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_make_monsterlist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_make_monsterlist" />
         <item itemvalue="Python.scraping_dqmonster" />
         <item itemvalue="Python.mail_greeting" />
         <item itemvalue="Python.remove_space" />
         <item itemvalue="Python.items" />
-        <item itemvalue="Python.birthday" />
       </list>
     </recent_temporary>
   </component>
@@ -213,13 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594895574597</updated>
-    </task>
-    <task id="LOCAL-00003" summary="変数の基本">
-      <created>1594952296102</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1594952296102</updated>
     </task>
     <task id="LOCAL-00004" summary="変数の基本">
       <created>1594953909918</created>
@@ -557,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596081934965</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="しりとり用のデータをスクレイピング">
+      <created>1596213067408</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1596213067408</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -573,7 +579,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="オーバライドと多態性についての学習" />
     <MESSAGE value="//で小数点以下切り捨てが可能らしい" />
     <MESSAGE value="無限ループの学習" />
     <MESSAGE value="random関数つかってみた" />
@@ -598,7 +603,8 @@
     <MESSAGE value="追記" />
     <MESSAGE value="修正" />
     <MESSAGE value="コメントを追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="コメントを追加" />
+    <MESSAGE value="しりとり用のデータをスクレイピング" />
+    <option name="LAST_COMMIT_MESSAGE" value="しりとり用のデータをスクレイピング" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="8" key="#data-kata" timestamp="1594954296191">
@@ -613,22 +619,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="1515" height="194" key="GridCell.Tab.0.bottom" timestamp="1595990072684">
+    <state width="746" height="198" key="GridCell.Tab.0.bottom" timestamp="1596332442304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595990072684" />
-    <state width="1515" height="194" key="GridCell.Tab.0.center" timestamp="1595990072684">
+    <state width="746" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596332442304" />
+    <state width="746" height="198" key="GridCell.Tab.0.center" timestamp="1596332442304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595990072684" />
-    <state width="1515" height="194" key="GridCell.Tab.0.left" timestamp="1595990072684">
+    <state width="746" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596332442304" />
+    <state width="746" height="198" key="GridCell.Tab.0.left" timestamp="1596332442304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595990072684" />
-    <state width="1515" height="194" key="GridCell.Tab.0.right" timestamp="1595990072684">
+    <state width="746" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596332442304" />
+    <state width="746" height="198" key="GridCell.Tab.0.right" timestamp="1596332442304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595990072684" />
+    <state width="746" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596332442304" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594964627485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -649,10 +655,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595917328339" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596081936639">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596213070490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596081936639" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596213070490" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1594954532721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
