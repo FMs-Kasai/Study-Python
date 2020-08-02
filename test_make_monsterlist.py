@@ -25,22 +25,22 @@ def make_monstername_dict():
 
 def make_kana_dict():
     kana_list = {}
-    for i in range(0,len(HIRAGANA) + 1):
+    for i in range(0,len(KATAKANA) + 1):
         kanas = []
         j = 1
         for key in MONSTER_NAME_DICT:
-            if (MONSTER_NAME_DICT[key],1) == mid(HIRAGANA,i,1):
+            if left(MONSTER_NAME_DICT[key],1) == mid(KATAKANA,i,1):
                 kanas.append(MONSTER_NAME_DICT[key])
                 j = j + 1
-        kana_list[mid(HIRAGANA,i,1)] = kanas
+        kana_list[mid(KATAKANA,i,1)] = kanas
 
     return kana_list
 
 
 MONSTER_NAME_DICT = make_monstername_dict()
-HIRAGANA = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ" \
-       "まみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづで" \
-       "どばびぶべぼぱぴぷぺぽ"
+KATAKANA = "アイウエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデ" \
+           "トドナニヌネノハバパヒビピフブプヘベペホボポマミムメモヤユヨ" \
+           "ラリルレロワヲンヴ"
 
 kanalist = make_kana_dict()
 print(kanalist)

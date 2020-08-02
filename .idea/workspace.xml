@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="csvから特定の列だけを抽出する">
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="import文追加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_make_monsterlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_make_monsterlist.py" afterDir="false" />
     </list>
@@ -217,20 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594895574597</updated>
-    </task>
-    <task id="LOCAL-00006" summary="データ型の基本">
-      <created>1594954365206</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1594954365206</updated>
-    </task>
-    <task id="LOCAL-00007" summary="変数の基本">
-      <created>1594954433857</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1594954433857</updated>
     </task>
     <task id="LOCAL-00008" summary="演算子の基本">
       <created>1594955560194</created>
@@ -561,7 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596335017225</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="あ:[]・・・・ん[]のように変換">
+      <created>1596340785436</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1596340785436</updated>
+    </task>
+    <task id="LOCAL-00056" summary="import文追加">
+      <created>1596340967234</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1596340967234</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,8 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="無限ループの学習" />
-    <MESSAGE value="random関数つかってみた" />
     <MESSAGE value="global変数とlocal変数について" />
     <MESSAGE value="global文について追加" />
     <MESSAGE value="例外処理についての学習" />
@@ -602,7 +600,9 @@
     <MESSAGE value="コメントを追加" />
     <MESSAGE value="しりとり用のデータをスクレイピング" />
     <MESSAGE value="csvから特定の列だけを抽出する" />
-    <option name="LAST_COMMIT_MESSAGE" value="csvから特定の列だけを抽出する" />
+    <MESSAGE value="あ:[]・・・・ん[]のように変換" />
+    <MESSAGE value="import文追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="import文追加" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="8" key="#data-kata" timestamp="1594954296191">
@@ -617,22 +617,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="1515" height="198" key="GridCell.Tab.0.bottom" timestamp="1596340675607">
+    <state width="746" height="198" key="GridCell.Tab.0.bottom" timestamp="1596341621268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596340675607" />
-    <state width="1515" height="198" key="GridCell.Tab.0.center" timestamp="1596340675607">
+    <state width="746" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596341621268" />
+    <state width="746" height="198" key="GridCell.Tab.0.center" timestamp="1596341621267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596340675607" />
-    <state width="1515" height="198" key="GridCell.Tab.0.left" timestamp="1596340675607">
+    <state width="746" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596341621267" />
+    <state width="746" height="198" key="GridCell.Tab.0.left" timestamp="1596341621267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596340675607" />
-    <state width="1515" height="198" key="GridCell.Tab.0.right" timestamp="1596340675607">
+    <state width="746" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596341621267" />
+    <state width="746" height="198" key="GridCell.Tab.0.right" timestamp="1596341621268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596340675607" />
+    <state width="746" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596341621268" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594964627485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -649,10 +649,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594964627485" />
-    <state x="551" y="133" key="RollbackChangesDialog" timestamp="1595917328339">
+    <state x="551" y="133" key="RollbackChangesDialog" timestamp="1596340717570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595917328339" />
+    <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596340717570" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596213070490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
