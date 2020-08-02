@@ -1,4 +1,7 @@
 import csv
+import re
+from pykakasi import kakasi
+
 
 def left(s, amount):
     return s[:amount]
