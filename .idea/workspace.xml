@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="エラー修正" />
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="修正">
+      <change beforePath="$PROJECT_DIR$/test_make_monsterlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_make_monsterlist.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,13 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594895574597</updated>
-    </task>
-    <task id="LOCAL-00011" summary="関数の基本">
-      <created>1594958522994</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1594958522994</updated>
     </task>
     <task id="LOCAL-00012" summary="クラスとコンストラクタの基本">
       <created>1594963262278</created>
@@ -558,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596344043365</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="修正">
+      <created>1596344494739</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1596344494739</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,7 +592,6 @@
     <MESSAGE value="rjust,ljust,centerを使用した整形表示" />
     <MESSAGE value="strip関連のメソッドを使った処理の挙動確認" />
     <MESSAGE value="追記" />
-    <MESSAGE value="修正" />
     <MESSAGE value="コメントを追加" />
     <MESSAGE value="しりとり用のデータをスクレイピング" />
     <MESSAGE value="csvから特定の列だけを抽出する" />
@@ -599,7 +600,8 @@
     <MESSAGE value="カタカナのモンスターだけを抽出する" />
     <MESSAGE value="pykakasiのテスト" />
     <MESSAGE value="エラー修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="エラー修正" />
+    <MESSAGE value="修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="8" key="#data-kata" timestamp="1594954296191">
@@ -614,22 +616,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="746" height="200" key="GridCell.Tab.0.bottom" timestamp="1596344244368">
+    <state width="746" height="200" key="GridCell.Tab.0.bottom" timestamp="1596344619220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596344244368" />
-    <state width="746" height="200" key="GridCell.Tab.0.center" timestamp="1596344244368">
+    <state width="746" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596344619220" />
+    <state width="746" height="200" key="GridCell.Tab.0.center" timestamp="1596344619219">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596344244368" />
-    <state width="746" height="200" key="GridCell.Tab.0.left" timestamp="1596344244368">
+    <state width="746" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596344619219" />
+    <state width="746" height="200" key="GridCell.Tab.0.left" timestamp="1596344619218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596344244368" />
-    <state width="746" height="200" key="GridCell.Tab.0.right" timestamp="1596344244368">
+    <state width="746" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596344619218" />
+    <state width="746" height="200" key="GridCell.Tab.0.right" timestamp="1596344619220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596344244368" />
+    <state width="746" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596344619220" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594964627485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

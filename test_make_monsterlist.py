@@ -55,5 +55,6 @@ KATAKANA = "アイウエオカガキギクグケゲコゴサザシジスズセ�
 
 kanalist = make_kana_dict()
 print(kanalist)
+print(MONSTER_NAME_DICT)
 
 
