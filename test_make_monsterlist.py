@@ -12,17 +12,6 @@ def right(s, amount):
 def mid(s, offset, amount):
     return s[offset:offset+amount]
 
-def change_charactertype_katakana(word):
-    kakasi = kakasi()
-
-    kakasi.setMode("J", "K")
-    kakasi.setMode("H", "K")
-
-    conv = kakasi.getConverter()
-    result = conv.do(word)
-
-    return result
-
 def make_monstername_dict():
     monster_dict = {}
     csv_header = ["no","name","exp","gold","area","drop_item"]
