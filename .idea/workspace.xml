@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="カタカナのモンスターだけを抽出する">
-      <change afterPath="$PROJECT_DIR$/kakasi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="pykakasiのテスト">
+      <change beforePath="$PROJECT_DIR$/kakasi.py" beforeDir="false" afterPath="$PROJECT_DIR$/kakasi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_make_monsterlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_make_monsterlist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,7 @@
       <recent name="C:\Users\ryoku\PycharmProjects\Study-Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.kakasi">
+  <component name="RunManager" selected="Python.test_make_monsterlist">
     <configuration name="hensu" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Study-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,8 +199,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.kakasi" />
         <item itemvalue="Python.test_make_monsterlist" />
+        <item itemvalue="Python.kakasi" />
         <item itemvalue="Python.scraping_dqmonster" />
         <item itemvalue="Python.mail_greeting" />
         <item itemvalue="Python.remove_space" />
@@ -218,13 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594895574597</updated>
-    </task>
-    <task id="LOCAL-00009" summary="if文の基本">
-      <created>1594956595767</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1594956595767</updated>
     </task>
     <task id="LOCAL-00010" summary="for文の基本">
       <created>1594957435832</created>
@@ -562,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596341889295</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="pykakasiのテスト">
+      <created>1596343497851</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1596343497851</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,7 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="global文について追加" />
     <MESSAGE value="例外処理についての学習" />
     <MESSAGE value="例外処理を使用した数あてゲーム" />
     <MESSAGE value="コラッツ数列のプログラム" />
@@ -603,7 +601,8 @@
     <MESSAGE value="あ:[]・・・・ん[]のように変換" />
     <MESSAGE value="import文追加" />
     <MESSAGE value="カタカナのモンスターだけを抽出する" />
-    <option name="LAST_COMMIT_MESSAGE" value="カタカナのモンスターだけを抽出する" />
+    <MESSAGE value="pykakasiのテスト" />
+    <option name="LAST_COMMIT_MESSAGE" value="pykakasiのテスト" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="8" key="#data-kata" timestamp="1594954296191">
@@ -618,22 +617,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="746" height="200" key="GridCell.Tab.0.bottom" timestamp="1596343470474">
+    <state width="746" height="200" key="GridCell.Tab.0.bottom" timestamp="1596343978056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596343470474" />
-    <state width="746" height="200" key="GridCell.Tab.0.center" timestamp="1596343470474">
+    <state width="746" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596343978056" />
+    <state width="746" height="200" key="GridCell.Tab.0.center" timestamp="1596343978055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596343470474" />
-    <state width="746" height="200" key="GridCell.Tab.0.left" timestamp="1596343470474">
+    <state width="746" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596343978055" />
+    <state width="746" height="200" key="GridCell.Tab.0.left" timestamp="1596343978055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596343470474" />
-    <state width="746" height="200" key="GridCell.Tab.0.right" timestamp="1596343470474">
+    <state width="746" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596343978055" />
+    <state width="746" height="200" key="GridCell.Tab.0.right" timestamp="1596343978055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596343470474" />
+    <state width="746" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596343978055" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594964627485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -650,14 +649,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594964627485" />
-    <state x="551" y="133" key="RollbackChangesDialog" timestamp="1596342942866">
+    <state x="551" y="133" key="RollbackChangesDialog" timestamp="1596343961779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596342942866" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596213070490">
+    <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596343961779" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596343513915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596213070490" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596343513915" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1594954532721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

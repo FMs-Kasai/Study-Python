@@ -30,8 +30,6 @@ def make_monstername_dict():
     with open("dq8_monster.csv", "r", encoding="utf-8_sig") as file:
         for key in csv.DictReader(file,csv_header):
             if not key["name"] in monster_dict.keys():
-                word = str(key["name"])
-                result_word = change_charactertype_katakana(word)
                 monster_dict[key["name"]] = key["name"]
 
         return monster_dict
