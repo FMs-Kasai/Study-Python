@@ -1,5 +1,6 @@
 import csv
 import re
+import random
 
 def left(s, amount):
     return s[:amount]
@@ -42,6 +43,10 @@ KATAKANA = "アイウエオカガキギクグケゲコゴサザシジスズセ�
 
 kanalist = make_kana_dict()
 print(kanalist)
+
+kanalist["ア"].remove("アークデーモン")
+print(kanalist)
+print(random.choice(kanalist["ア"]))
 
 
 
