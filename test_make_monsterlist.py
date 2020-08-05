@@ -32,7 +32,6 @@ def make_kana_dict():
                 kanas.append(MONSTER_NAME_DICT[key])
                 j = j + 1
         kana_list[mid(KATAKANA,i,1)] = kanas
-
     return kana_list
 
 
@@ -45,7 +44,7 @@ kanalist = make_kana_dict()
 print(kanalist)
 
 kanalist["ア"].remove("アークデーモン")
-print(kanalist)
+#print(kanalist)
 print(random.choice(kanalist["ア"]))
 
 
