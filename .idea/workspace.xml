@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="正規表現についての学習">
-      <change afterPath="$PROJECT_DIR$/Phone_Email.py" afterDir="false" />
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="クリップボードから電話番号とメールアドレスを抜き出すプログラム">
+      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
       <recent name="C:\Users\ryoku\PycharmProjects\Study-Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Phone_Email">
+  <component name="RunManager" selected="Python.study_file">
     <configuration name="Phone_Email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scraping_dqmonster" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="study_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping_dqmonster.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.study_file" />
         <item itemvalue="Python.Phone_Email" />
         <item itemvalue="Python.regular_expression" />
         <item itemvalue="Python.test_make_monsterlist" />
         <item itemvalue="Python.kakasi" />
-        <item itemvalue="Python.scraping_dqmonster" />
       </list>
     </recent_temporary>
   </component>
@@ -217,13 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594895574597</updated>
-    </task>
-    <task id="LOCAL-00021" summary="カウントアップタイマー">
-      <created>1595081091069</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1595081091069</updated>
     </task>
     <task id="LOCAL-00022" summary="カウントダウンタイマー">
       <created>1595081282133</created>
@@ -561,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597037642634</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="クリップボードから電話番号とメールアドレスを抜き出すプログラム">
+      <created>1597805044744</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1597805044744</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +578,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="リストへの追加の記述をメソッドを使ったものに変更" />
     <MESSAGE value="リストの内容を削除する関数を実装" />
     <MESSAGE value="文字列もリストのように使うことができる" />
     <MESSAGE value="setdefaultメソッドを使用した、文章に何の文字が何個含まれているかわかるプログラム" />
@@ -602,7 +602,8 @@
     <MESSAGE value="カタカナの正規表現で長音を含む場合と含まない場合についての記述" />
     <MESSAGE value="最後に長音がつくものをマッチさせる正規表現" />
     <MESSAGE value="正規表現についての学習" />
-    <option name="LAST_COMMIT_MESSAGE" value="正規表現についての学習" />
+    <MESSAGE value="クリップボードから電話番号とメールアドレスを抜き出すプログラム" />
+    <option name="LAST_COMMIT_MESSAGE" value="クリップボードから電話番号とメールアドレスを抜き出すプログラム" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="8" key="#data-kata" timestamp="1594954296191">
@@ -617,22 +618,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594895677956" />
-    <state width="1515" height="192" key="GridCell.Tab.0.bottom" timestamp="1597804902534">
+    <state width="1515" height="192" key="GridCell.Tab.0.bottom" timestamp="1597887988737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597804902534" />
-    <state width="1515" height="192" key="GridCell.Tab.0.center" timestamp="1597804902534">
+    <state width="1515" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597887988737" />
+    <state width="1515" height="192" key="GridCell.Tab.0.center" timestamp="1597887988737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597804902534" />
-    <state width="1515" height="192" key="GridCell.Tab.0.left" timestamp="1597804902534">
+    <state width="1515" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597887988737" />
+    <state width="1515" height="192" key="GridCell.Tab.0.left" timestamp="1597887988737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597804902534" />
-    <state width="1515" height="192" key="GridCell.Tab.0.right" timestamp="1597804902534">
+    <state width="1515" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597887988737" />
+    <state width="1515" height="192" key="GridCell.Tab.0.right" timestamp="1597887988737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597804902534" />
+    <state width="1515" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597887988737" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1594964627485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -653,10 +654,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596353382010" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597037644787">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597805049666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597037644787" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597805049666" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1594954532721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
