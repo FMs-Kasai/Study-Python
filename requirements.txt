@@ -3,3 +3,7 @@ pyperclip
 beautifulsoup4
 
 pykakasi
+
+pandas
+
+xlrd
