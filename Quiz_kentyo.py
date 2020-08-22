@@ -19,9 +19,13 @@ def choice_prefecture(prefecture: list) -> str:
     return prefecture[prefecture_num][0]
 
 # 正解か判定
-def judge_answer(answer: str) -> bool:
-    return None
+def judge_answer(prefecture: list, question: str, answer:str) -> bool:
+    question_index = prefecture.index(question)
 
+    if prefecture[question_index][0] == answer:
+        return True
+    else:
+        return False
 
 # ユーザの入力処理。
 def user_input_answer() -> str:
@@ -43,9 +47,19 @@ def prefecture_quiz() -> None:
     prefecture = make_prefecture()
     for question_count in range(1, 47):
         question = choice_prefecture(prefecture)
-        print("問題{}:{}".format(question_count, question))
+
+        print("問題{}:{}"
+              .format(question_count, question)
+              )
+
         answer = user_input_answer()
+        if judge_answer(prefecture, question, answer):
+            print("正解！")
+        else:
+            print("不正解")
 
     return None
-prefecture_quiz()
+
+prefecture = make_prefecture()
+print(prefecture)
 
