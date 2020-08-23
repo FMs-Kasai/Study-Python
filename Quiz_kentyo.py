@@ -13,10 +13,13 @@ def make_prefecture() -> list:
     return prefecture
 
 # 整形されたデータから問題出す
-def choice_prefecture(prefecture: list) -> str and int:
+def choice_prefecture(prefecture: list, past_prefecture: list) -> str and int:
     prefecture_num = random.randint(0,46)
 
-    return prefecture[prefecture_num][0], prefecture_num
+    if prefecture[prefecture_num][0] in past_prefecture:
+        choice_prefecture(prefecture, past_prefecture)
+    else:
+        return prefecture[prefecture_num][0], prefecture_num
 
 
 # 正解か判定
@@ -40,25 +43,36 @@ def user_input_answer() -> str:
         return user_input_answer()
 
 # 結果をファイル出力
-# 出した都道府県覚えておく
-# 出した都道府県消す
 # 都道府県クイズ処理（メインプログラム）
 def prefecture_quiz() -> None:
     prefecture = make_prefecture()
+    past_prefecture = []
+    incorrect_prefecture = []
     incorrect_answer_count = 0
     for question_count in range(1, 47):
-        question, prefecture_num = choice_prefecture(prefecture)
+        question, prefecture_num = choice_prefecture(prefecture,past_prefecture)
+        past_prefecture.append(question)
 
         print("問題{}:{}"
               .format(question_count, question)
               )
 
         answer = user_input_answer()
+
         if judge_answer(prefecture_num, answer, prefecture):
             print("正解！")
         else:
             print("不正解")
+            incorrect_prefecture.append(question)
             incorrect_answer_count += 1
+
+        if incorrect_answer_count == 3:
+
+            print(
+                "3回間違えたので終了します。結果はresult.txtに出力しました。\n"
+                  "お疲れさまでした."
+            )
+            return None
 
     return None
 
