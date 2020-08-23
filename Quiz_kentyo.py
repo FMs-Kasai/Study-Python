@@ -17,7 +17,7 @@ def choice_prefecture(prefecture: list, past_prefecture: list) -> str and int:
     prefecture_num = random.randint(0,46)
 
     if prefecture[prefecture_num][0] in past_prefecture:
-        choice_prefecture(prefecture, past_prefecture)
+        return choice_prefecture(prefecture, past_prefecture)
     else:
         return prefecture[prefecture_num][0], prefecture_num
 
@@ -43,6 +43,8 @@ def user_input_answer() -> str:
         return user_input_answer()
 
 # 結果をファイル出力
+def write_result_file(incorrect_prefecture: list) -> None:
+
 # 都道府県クイズ処理（メインプログラム）
 def prefecture_quiz() -> None:
     prefecture = make_prefecture()
@@ -50,7 +52,7 @@ def prefecture_quiz() -> None:
     incorrect_prefecture = []
     incorrect_answer_count = 0
     for question_count in range(1, 47):
-        question, prefecture_num = choice_prefecture(prefecture,past_prefecture)
+        question, prefecture_num = choice_prefecture(prefecture, past_prefecture)
         past_prefecture.append(question)
 
         print("問題{}:{}"
