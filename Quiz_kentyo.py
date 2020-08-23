@@ -13,16 +13,16 @@ def make_prefecture() -> list:
     return prefecture
 
 # 整形されたデータから問題出す
-def choice_prefecture(prefecture: list) -> str:
-    prefecture_num = random.randint(0, 46)
+def choice_prefecture(prefecture: list) -> str and int:
+    prefecture_num = random.randint(0,46)
 
-    return prefecture[prefecture_num][0]
+    return prefecture[prefecture_num][0], prefecture_num
+
 
 # 正解か判定
-def judge_answer(prefecture: list, question: str, answer:str) -> bool:
-    question_index = prefecture.index(question)
+def judge_answer(prefecture_num: int, answer:str, prefecture: list) -> bool:
 
-    if prefecture[question_index][0] == answer:
+    if prefecture[prefecture_num][1] == answer:
         return True
     else:
         return False
@@ -41,25 +41,26 @@ def user_input_answer() -> str:
 
 # 結果をファイル出力
 # 出した都道府県覚えておく
-# 出した都道府県消す。
+# 出した都道府県消す
 # 都道府県クイズ処理（メインプログラム）
 def prefecture_quiz() -> None:
     prefecture = make_prefecture()
+    incorrect_answer_count = 0
     for question_count in range(1, 47):
-        question = choice_prefecture(prefecture)
+        question, prefecture_num = choice_prefecture(prefecture)
 
         print("問題{}:{}"
               .format(question_count, question)
               )
 
         answer = user_input_answer()
-        if judge_answer(prefecture, question, answer):
+        if judge_answer(prefecture_num, answer, prefecture):
             print("正解！")
         else:
             print("不正解")
+            incorrect_answer_count += 1
 
     return None
 
-prefecture = make_prefecture()
-print(prefecture)
+prefecture_quiz()
 
