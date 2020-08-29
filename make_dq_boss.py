@@ -250,5 +250,5 @@ str = [
 
 ]
 
-with open("dq_boss.json", "w", "utf-8") as file:
+with open("dq_boss.json", "w", encoding="utf-8") as file:
     json.dump(str, file, ensure_ascii=False, indent=4)
