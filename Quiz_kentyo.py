@@ -23,7 +23,7 @@ def choice_prefecture(prefecture: list, past_prefecture: list) -> str and int:
 
 
 # 正解か判定
-def judge_answer(prefecture_num: int, answer:str, prefecture: list) -> bool:
+def judge_answer(prefecture_num: int, answer: str, prefecture: list) -> bool:
 
     if prefecture[prefecture_num][1] == answer:
         return True
@@ -41,9 +41,6 @@ def user_input_answer() -> str:
     else:
         print("県庁所在地は10文字以内で入力してください")
         return user_input_answer()
-
-# 結果をファイル出力
-def write_result_file(incorrect_prefecture: list) -> None:
 
 # 都道府県クイズ処理（メインプログラム）
 def prefecture_quiz() -> None:
