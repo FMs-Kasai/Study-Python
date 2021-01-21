@@ -5,12 +5,21 @@ import numpy as np
 #目標：ランダムな問題集ファイルを作成する
 
 # データ整形
-def make_prefecture() -> list:
-    prefecture_df = pd.read_excel("todouhuken.xlsx", sheet_name = 0)
-    prefecture_df = prefecture_df[["都道府県 県あり", "県庁所在地 市区町村あり"]]
+def make_capitals() -> list:
+    capitals_df = pd.read_excel("todouhuken.xlsx", sheet_name = 0)
+    capitals_df = capitals_df[["都道府県 県あり", "県庁所在地 市区町村あり"]]
 
-    prefecture = prefecture_df.values.tolist()
+    capitals = capitals_df.values.tolist()
 
+
+    return capitals
+
+def make_prefecture(capitals: list) -> list:
+    prefecture = []
+    prefecture_count = 0
+
+    for prefecture_count in range (len(capitals)):
+        prefecture.append(capitals[prefecture_count][0])
 
     return prefecture
 
@@ -31,16 +40,18 @@ def make_workbook(quiz_num: int) -> None:
 
 # 問題集と回答のファイルを作成
 
-# 都道府県の順番シャッフル
+# 都道府県(prefecture)の順番シャッフル
 def shuffle_prefecture(prefecture: list) -> list:
-    np.random.shuffle(prefecture)
+    random.shuffle(prefecture)
+    return prefecture
 
 
 # 47都道府県をループ、それぞれ問題を作成
 
 # メイン
 def make_prefecture_quiz() -> None:
-    prefecture = make_prefecture()
+    capitals = make_capitals()
+    prefecture = make_prefecture(capitals)
     quiz_num = 1
     # shuffle_prefecture(prefecture)
     print(prefecture)
