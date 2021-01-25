@@ -4,7 +4,7 @@ import numpy as np
 
 #目標：ランダムな問題集ファイルを作成する
 
-# データ整形
+#[[都道府県][県庁所在地]]のようにデータ整形
 def make_capitals() -> list:
     capitals_df = pd.read_excel("todouhuken.xlsx", sheet_name = 0)
     capitals_df = capitals_df[["都道府県 県あり", "県庁所在地 市区町村あり"]]
@@ -14,47 +14,51 @@ def make_capitals() -> list:
 
     return capitals
 
-def make_prefecture(capitals: list) -> list:
-    prefecture = []
-    prefecture_count = 0
+#配列シャッフル
+def shuffle_capitals(capitals: list) -> list:
+    return np.random.shuffle(capitals)
 
-    for prefecture_count in range (len(capitals)):
-        prefecture.append(capitals[prefecture_count][0])
+def make_answer_options(capitals: list) -> list:
+    answer_options = []
 
-    return prefecture
+    for i in range(5):
+        answer_options.append(capitals[i][0])
 
-# 問題集,回答集ファイルを作成
-def make_workbook(quiz_num: int) -> None:
-    for quiz_num in range(5):
-        quiz_file = open('capitalquiz{}.txt'
-                         .format(quiz_num), 'w')
+    random.shuffle(answer_options)
 
-        answer_key_file = open('capitalquiz_answers{}.txt'
-                               .format(quiz_num), 'w')
+    return answer_options
 
-        quiz_file.write('名前：\n\n日付：\n\n学籍番号：')
-        quiz_file.write(('' * 20) + '都道府県庁所在地クイズ(問題番号{})'
-                        .format(quiz_num))
-        quiz_file.write('\n\n')
+# 問題ファイルを作成
+def make_workbook(quiz_num: int, question_num: int, capitals: list) -> None:
 
+    quiz_file = open('capitalquiz{}.txt'
+                     .format(quiz_num), 'w')
 
-# 問題集と回答のファイルを作成
+    answer_key_file = open('capitalquiz_answers{}.txt'
+                           .format(quiz_num), 'w')
 
-# 都道府県(prefecture)の順番シャッフル
-def shuffle_prefecture(prefecture: list) -> list:
-    random.shuffle(prefecture)
-    return prefecture
+    quiz_file.write('名前：\n\n日付：\n\n学籍番号：')
+    quiz_file.write(('' * 20) + '都道府県庁所在地クイズ(問題番号{})'
+                    .format(quiz_num))
+    quiz_file.write('\n\n')
 
+    for question_num in range(5):
+        quiz_file.write('{}. {}の県庁所在地は？\n'
+                    .format(question_num + 1, capitals[question_num][0]))
 
-# 47都道府県をループ、それぞれ問題を作成
+        for choice_count in range(4):
+            #ここが変　quiz_file.write('{}. {}\n'.format('ABCD'[choice_count], capitals[choice_count + 5][1]))
+
+#解答ファイルを作成
 
 # メイン
 def make_prefecture_quiz() -> None:
-    capitals = make_capitals()
-    prefecture = make_prefecture(capitals)
-    quiz_num = 1
-    # shuffle_prefecture(prefecture)
-    print(prefecture)
+    for quiz_num in range(5):
+        capitals = make_capitals()
+        shuffle_capitals(capitals)
+        answer_options = make_answer_options(capitals)
+
+        print(answer_options)
 
 make_prefecture_quiz()
 

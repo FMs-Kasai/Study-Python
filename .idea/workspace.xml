@@ -218,13 +218,6 @@
       <option name="presentableId" value="Default" />
       <updated>1594895574597</updated>
     </task>
-    <task id="LOCAL-00030" summary="例外処理を使用した数あてゲーム">
-      <created>1595387145076</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1595387145076</updated>
-    </task>
     <task id="LOCAL-00031" summary="コラッツ数列のプログラム">
       <created>1595388358936</created>
       <option name="number" value="00031" />
@@ -561,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611024812346</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="県庁所在地クイズファイルを自動生成するプログラム（途中）">
+      <created>1611224983687</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1611224983687</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,26 +605,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="県庁所在地クイズファイルを自動生成するプログラム（途中）" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="745" height="182" key="GridCell.Tab.0.bottom" timestamp="1611025126589">
+    <state width="1515" height="182" key="GridCell.Tab.0.bottom" timestamp="1611554364267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611025126589" />
-    <state width="745" height="182" key="GridCell.Tab.0.center" timestamp="1611025126589">
+    <state width="1515" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611554364267" />
+    <state width="1515" height="182" key="GridCell.Tab.0.center" timestamp="1611554364267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611025126589" />
-    <state width="745" height="182" key="GridCell.Tab.0.left" timestamp="1611025126589">
+    <state width="1515" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611554364267" />
+    <state width="1515" height="182" key="GridCell.Tab.0.left" timestamp="1611554364267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611025126589" />
-    <state width="745" height="182" key="GridCell.Tab.0.right" timestamp="1611025126589">
+    <state width="1515" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611554364267" />
+    <state width="1515" height="182" key="GridCell.Tab.0.right" timestamp="1611554364267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611025126589" />
-    <state x="558" y="115" key="RollbackChangesDialog" timestamp="1611216297393">
+    <state width="1515" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611554364267" />
+    <state x="558" y="115" key="RollbackChangesDialog" timestamp="1611550802520">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="558" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611216297393" />
+    <state x="558" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611550802520" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
