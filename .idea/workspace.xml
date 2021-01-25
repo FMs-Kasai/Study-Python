@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="とりあえず動く">
+    <list default="true" id="b8170a97-4c72-4761-971a-13fa180ff2fd" name="Default Changelist" comment="完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/make_prefecture_quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_prefecture_quiz.py" afterDir="false" />
     </list>
@@ -217,13 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594895574597</updated>
-    </task>
-    <task id="LOCAL-00033" summary="ユーザの入力で配列を生成するプログラム">
-      <created>1595475002052</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1595475002052</updated>
     </task>
     <task id="LOCAL-00034" summary="not inを使用したプログラムを追加">
       <created>1595643149991</created>
@@ -561,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611564341525</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="完成">
+      <created>1611564971914</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1611564971914</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rjust,ljust,centerを使用した整形表示" />
     <MESSAGE value="strip関連のメソッドを使った処理の挙動確認" />
     <MESSAGE value="追記" />
     <MESSAGE value="コメントを追加" />
@@ -602,29 +601,34 @@
     <MESSAGE value="jsonデータ作成 課題で使う" />
     <MESSAGE value="県庁所在地クイズファイルを自動生成するプログラム（途中）" />
     <MESSAGE value="とりあえず動く" />
-    <option name="LAST_COMMIT_MESSAGE" value="とりあえず動く" />
+    <MESSAGE value="完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="182" key="GridCell.Tab.0.bottom" timestamp="1611564905786">
+    <state width="1515" height="129" key="GridCell.Tab.0.bottom" timestamp="1611574759594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611564905786" />
-    <state width="1515" height="182" key="GridCell.Tab.0.center" timestamp="1611564905786">
+    <state width="1515" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611574759594" />
+    <state width="1515" height="129" key="GridCell.Tab.0.center" timestamp="1611574759594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611564905786" />
-    <state width="1515" height="182" key="GridCell.Tab.0.left" timestamp="1611564905786">
+    <state width="1515" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611574759594" />
+    <state width="1515" height="129" key="GridCell.Tab.0.left" timestamp="1611574759594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611564905786" />
-    <state width="1515" height="182" key="GridCell.Tab.0.right" timestamp="1611564905786">
+    <state width="1515" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611574759594" />
+    <state width="1515" height="129" key="GridCell.Tab.0.right" timestamp="1611574759594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611564905786" />
-    <state x="558" y="115" key="RollbackChangesDialog" timestamp="1611562608463">
+    <state width="1515" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611574759594" />
+    <state x="558" y="115" key="RollbackChangesDialog" timestamp="1611574615419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="558" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611562608463" />
+    <state x="558" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611574615419" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611564974906">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611564974906" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

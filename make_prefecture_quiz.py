@@ -34,6 +34,10 @@ def make_answer_list(capitals: list, question_num: int) -> list:
 
 def generate_random_num() -> int:
     random_num = random.randint(6, 46)
+    past_random_num = []
+    if random_num in past_random_num:
+        return random_num
+
     return random_num
 
 
@@ -41,7 +45,7 @@ def generate_random_num() -> int:
 def make_workbook(quiz_num: int, capitals: list) -> None:
 
     quiz_file = open('capitalquiz{}.txt'
-                     .format(quiz_num), 'w')
+                     .format(quiz_num + 1), 'w', encoding='utf-8')
 
     quiz_file.write('名前：\n\n日付：\n\n学籍番号：')
     quiz_file.write(('' * 20) + '都道府県庁所在地クイズ(問題番号{})'
