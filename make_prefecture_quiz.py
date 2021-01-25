@@ -21,28 +21,19 @@ def shuffle_capitals(capitals: list) -> list:
 def shuffle_list(list: list) -> list:
     return random.shuffle(list)
 
-def make_answer_options(capitals: list) -> list:
-    answer_options = []
-
-    for i in range(5):
-        answer_options.append(capitals[i][0])
-
-    shuffle_list(answer_options)
-
-    return answer_options
-
-def make_answer_list(capitals: list, question_count: int) -> list:
+def make_answer_list(capitals: list, question_num: int) -> list:
     answer_list = []
-    random_num = generate_random_num()
-    answer_list.append(capitals[question_count][1])
+    answer_list.append(capitals[question_num][1])
+
     for i in range(3):
+        random_num = generate_random_num()
         answer_list.append(capitals[random_num][1])
 
     shuffle_list(answer_list)
     return answer_list
 
 def generate_random_num() -> int:
-    random_num = random.randint(6,47)
+    random_num = random.randint(6, 46)
     return random_num
 
 
@@ -59,7 +50,7 @@ def make_workbook(quiz_num: int, capitals: list) -> None:
 
     for question_num in range(5):
         answer_list = make_answer_list(capitals, question_num)
-        quiz_file.write('{}. {}の県庁所在地は？\n'
+        quiz_file.write('{}. {}の県庁所在地は？\n\n'
                     .format(question_num + 1, capitals[question_num][0]))
 
         for i in range(4):
@@ -77,6 +68,5 @@ def make_prefecture_quiz() -> None:
         shuffle_capitals(capitals)
         make_workbook(quiz_num, capitals)
 
-
-
+make_prefecture_quiz()
 
