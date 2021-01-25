@@ -47,9 +47,9 @@ def make_workbook(quiz_num: int, capitals: list) -> None:
     quiz_file = open('capitalquiz{}.txt'
                      .format(quiz_num + 1), 'w', encoding='utf-8')
 
-    quiz_file.write('名前：\n\n日付：\n\n学籍番号：')
+    quiz_file.write('日付：\n名前:\n学籍番号:\n\n')
     quiz_file.write(('' * 20) + '都道府県庁所在地クイズ(問題番号{})'
-                    .format(quiz_num))
+                    .format(quiz_num + 1))
     quiz_file.write('\n\n')
 
     for question_num in range(5):
@@ -71,6 +71,7 @@ def make_prefecture_quiz() -> None:
         capitals = make_capitals()
         shuffle_capitals(capitals)
         make_workbook(quiz_num, capitals)
+
 
 make_prefecture_quiz()
 
