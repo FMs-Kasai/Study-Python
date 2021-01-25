@@ -14,9 +14,12 @@ def make_capitals() -> list:
 
     return capitals
 
-#配列シャッフル
+#2次元配列シャッフル
 def shuffle_capitals(capitals: list) -> list:
     return np.random.shuffle(capitals)
+
+def shuffle_list(list: list) -> list:
+    return random.shuffle(list)
 
 def make_answer_options(capitals: list) -> list:
     answer_options = []
@@ -24,18 +27,30 @@ def make_answer_options(capitals: list) -> list:
     for i in range(5):
         answer_options.append(capitals[i][0])
 
-    random.shuffle(answer_options)
+    shuffle_list(answer_options)
 
     return answer_options
 
+def make_answer_list(capitals: list, question_count: int) -> list:
+    answer_list = []
+    random_num = generate_random_num()
+    answer_list.append(capitals[question_count][1])
+    for i in range(3):
+        answer_list.append(capitals[random_num][1])
+
+    shuffle_list(answer_list)
+    return answer_list
+
+def generate_random_num() -> int:
+    random_num = random.randint(6,47)
+    return random_num
+
+
 # 問題ファイルを作成
-def make_workbook(quiz_num: int, question_num: int, capitals: list) -> None:
+def make_workbook(quiz_num: int, capitals: list) -> None:
 
     quiz_file = open('capitalquiz{}.txt'
                      .format(quiz_num), 'w')
-
-    answer_key_file = open('capitalquiz_answers{}.txt'
-                           .format(quiz_num), 'w')
 
     quiz_file.write('名前：\n\n日付：\n\n学籍番号：')
     quiz_file.write(('' * 20) + '都道府県庁所在地クイズ(問題番号{})'
@@ -43,22 +58,25 @@ def make_workbook(quiz_num: int, question_num: int, capitals: list) -> None:
     quiz_file.write('\n\n')
 
     for question_num in range(5):
+        answer_list = make_answer_list(capitals, question_num)
         quiz_file.write('{}. {}の県庁所在地は？\n'
                     .format(question_num + 1, capitals[question_num][0]))
 
-        for choice_count in range(4):
-            #ここが変　quiz_file.write('{}. {}\n'.format('ABCD'[choice_count], capitals[choice_count + 5][1]))
+        for i in range(4):
+            quiz_file.write('{}. {}\n'
+                            .format('ABCD'[i], answer_list[i]))
 
-#解答ファイルを作成
+        quiz_file.write('\n')
+
+
 
 # メイン
 def make_prefecture_quiz() -> None:
     for quiz_num in range(5):
         capitals = make_capitals()
         shuffle_capitals(capitals)
-        answer_options = make_answer_options(capitals)
+        make_workbook(quiz_num, capitals)
 
-        print(answer_options)
 
-make_prefecture_quiz()
+
 
