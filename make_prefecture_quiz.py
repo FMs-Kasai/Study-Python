@@ -63,11 +63,22 @@ def make_workbook(quiz_num: int, capitals: list) -> None:
 
         quiz_file.write('\n')
 
+def input_sheet() -> int:
+    sheet = input('発行部数を入力してください--->')
+    try:
+        sheet = int(sheet)
+        sheet > 0
+    except:
+        print('0以上の整数で入力してください')
+        return input_sheet()
+
+    return sheet
 
 
 # メイン
 def make_prefecture_quiz() -> None:
-    for quiz_num in range(5):
+    sheet = input_sheet()
+    for quiz_num in range(sheet):
         capitals = make_capitals()
         shuffle_capitals(capitals)
         make_workbook(quiz_num, capitals)
